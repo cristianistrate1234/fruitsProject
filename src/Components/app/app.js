@@ -1,13 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
+import ThumbContainer from "../thumb-container/thumb-container";
 
-class App extends Component {
-    render() {
+function App(){
         return (
             <div>
-
+                <ThumbContainer/>
             </div>
         );
     }
-}
+
 
 export default App;
