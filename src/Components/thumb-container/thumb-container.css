@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-*{
-    /*text-align: center;*/
-}
 .containerTop{
 width: 1140px;
     height: 270px;
@@ -32,17 +29,13 @@ width: 1140px;
 }
 
 .juice{
-    width: 50%;
-    z-index: 5;
-    background-repeat: no-repeat;
-}
-
-.orange-juice{
-    width: 50%;
+    width: 60%;
     height: 300px;
     z-index: 5;
     background-repeat: no-repeat;
+    margin-left: 5px;
 }
+
 
 .button1{
     width: 141px;
@@ -80,20 +73,6 @@ margin-left: 280px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
-}
-
-
-.button2{
-    width: 141px;
-    height: 50px;
-    background: #7FAD39;
-    display: flex;
-    margin-left: 290px;
-    margin-top: 25px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    cursor: pointer;
-    font-weight: 700;
 }
 
 .topContainer1{

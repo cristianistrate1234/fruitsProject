@@ -1,60 +1,41 @@
-import juice from './1.jpg'
-import orange from './2.jpg'
 import './container-items.css'
 import React from "react";
-import fruits from './fruits.png'
-import juices from './juices.png'
-import nuts from './nuts.png'
-import veggies from './veggies.png'
+import topContainerItems from "./top-container-items";
+import bottomContainerItems from "./bottom-container-items";
 
 function ContainerItems() {
     return (
         <div className={`containerItems`}>
-            <div className={`juice`} style={{backgroundImage: `url(${juice})`}}>
-                <div className={'text'}>
-                    <p className={'pText'}>Summer Fruits</p>
-                    <p className={'pText1'}>100% All Natural Fruit Juice</p>
-                </div>
-                <div className={'button1'}>
-                    <p className={'text1'}>SHOP NOW</p>
-                </div>
-            </div>
-            <div className={`orange-juice`} style={{backgroundImage: `url(${orange})`}}>
-                <div className={'text'}>
-                    <p className={'pText'}>Dried & Drinks {<br/>}Fruits</p>
-                    <p className={'pText1'}>100% All Natural Fruit Juice</p>
-                </div>
-                <div className={'button2'}>
+            {bottomContainerItems.map((content, index) => {
+                return (<div key={index} className={`juice`} style={{backgroundImage: `url(${content.imgBackground})`}}>
+                    <div className={'text'}>
+                        <p className={'pText'}>{content.ptext}</p>
+                        <p className={'pText1'}>{content.ptext1}</p>
+                    </div>
+                    <div className={'button1'}>
+                        <p className={'text1'}>{content.text1}</p>
+                    </div>
+                </div>)
+            })}
 
-                    <p className={'text1'}>SHOP NOW</p>
-
-                </div>
-            </div>
         </div>
     )
 }
 
 export default ContainerItems
 
-export function TopThumb(){
-    return(
+export function TopThumb() {
+    return (
         <div className={'containerTop'}>
-            <div className={'topContainer1'}>
-                <img src={fruits} alt=""/>
-                <button>Fresh Fruit</button>
-            </div>
-            <div className={'topContainer1'}>
-                <img src={juices} alt=""/>
-                <button>Dried Fruit</button>
-            </div>
-            <div className={'topContainer1'}>
-                <img src={nuts} alt=""/>
-                <button>Vegetables</button>
-            </div>
-            <div className={'topContainer1'}>
-                <img src={veggies} alt=""/>
-                <button>Drink Fruits</button>
-            </div>
+            {topContainerItems.map((content, index) => {
+                return (
+                    <div className={'topContainer1'} key={index}>
+                        <img src={content.img} alt=""/>
+                        <button>{content.buttonTitle}</button>
+                    </div>
+                )
+            })}
         </div>
     )
 }
+
