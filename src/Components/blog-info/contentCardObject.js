@@ -12,7 +12,8 @@ const ContentCardObject = [
         iconComment:Comment,
         commentText:"54",
         titleCard:"Busting Salad Myths: Eat a Well-Built Salad (If You Want To)",
-        textCard:"This is usually said when someone is trying to lose weight or be super health First, to lose weight, it is widely understood that we must burn more calories than we eat. Thus Read More"
+        textCard:"This is usually said when someone is trying to lose weight or be super health First, to lose weight, it is widely understood that we must burn more calories than we eat. thus ",
+        more:".Read More"
     },
     {
         img:fructe,
@@ -21,7 +22,8 @@ const ContentCardObject = [
         iconComment:Comment,
         commentText:"25",
         titleCard:"Vitamin C: How Much and Which Sources Are Best for Boosting Immunity?",
-        textCard:"During cold and flu season,we try to do all we can to prevent illness or speed up how fast we recover from illness.One such strategy many employ is the use of Vitamin C for a natural remedy. Read More"
+        textCard:"During cold and flu season,we try to do all we can to prevent illness or speed up how fast we recover from illness.One such strategy many employ is the use of Vitamin C for a natural remedy. Read More",
+        more:".Read More"
     },
     {
         img:smoothie,
@@ -30,7 +32,8 @@ const ContentCardObject = [
         iconComment:Comment,
         commentText:"58",
         titleCard:"Pump Up the Produce Power in Winter Meals",
-        textCard:"We’ve all been here before When it seems the long, gray winter will never end and you make one more pot of hearty vegetable soup or another casserole; Read More"
+        textCard:"We’ve all been here before When it seems the long, gray winter will never end and you make one more pot of hearty vegetable soup or another casserole; Read More",
+        more:".Read More"
     }
 ]
 
