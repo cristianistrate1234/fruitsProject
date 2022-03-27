@@ -9,7 +9,6 @@ class ButtonBarSearch extends Component {
       </div>
     );
   }
-
 }
 
 export default ButtonBarSearch

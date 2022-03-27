@@ -6,7 +6,7 @@
 
 
 .container-Food-info {
-    width: 270px;
+    width: 290px;
     height: 441px;
     box-shadow: 0 0 2px 0 #cdcdcd;
     border: 1px solid #cdcdcd;
@@ -31,7 +31,7 @@
         box-shadow: 0 0 2px 0 #cdcdcd;
         border: 1px solid #cdcdcd;
         background-color: #dfeacf;
-        margin-left: 390px;
+
     }
 
     .container-food-text {
