@@ -1,0 +1,41 @@
+
+.container-coll-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.icon-phone{
+    cursor: pointer;
+    height: 50px;
+    border-radius: 100px;
+    background-color:#F5F5F5;
+    margin-left: 36px;
+    transition: 1s;
+}
+
+.icon-phone:hover{
+    background-color:#7FAD39;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 1px #7FAD39;
+}
+
+.container-phone-number{
+    display: flex;
+    height: 32px;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.phone-number-contact{
+
+    font-size: 20px;
+}
+
+.time-work{
+    height: 32px;
+    font-size: 12px;
+    margin-left: -100px;
+    padding-top: 19px;
+}
