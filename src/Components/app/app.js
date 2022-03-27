@@ -1,13 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ThumbContainer from "../thumb-container/thumb-container";
-
-function App(){
+import CardBlog from "../blog-info";
+import ContainerSearch from "../container-Search-Info/container-NavBarMenu-Search";
+class App extends Component {
+    render() {
         return (
             <div>
-                <ThumbContainer/>
+            <CardBlog />
+              <ContainerSearch />
+          <ThumbContainer/>
             </div>
         );
     }
-
-
 export default App;
