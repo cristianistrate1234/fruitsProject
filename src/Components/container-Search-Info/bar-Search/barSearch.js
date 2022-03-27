@@ -23,7 +23,7 @@ class BarSearch extends Component {
                         <Dropdown.Divider />
                         <Dropdown.Item href="#">Food Subcategories</Dropdown.Item>
                     </DropdownButton>
-                    <FormControl aria-label="Text input with dropdown button" />
+                    <FormControl aria-label="Text input with dropdown button" placeholder={"What do you need?"} />
                     <ButtonBarSearch className={"button-Search"} name={"SEARCH"} />
                     <PhoneColl />
                 </InputGroup>
