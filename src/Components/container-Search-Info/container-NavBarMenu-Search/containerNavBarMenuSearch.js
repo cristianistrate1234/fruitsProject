@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import NavbarMenu from "../navbar-Hamburger";
 import BarSearch from "../bar-Search";
-import CardFoodContainer from "../card-food-classe";
+import CardFoodContainer from "../card-food-container";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container,Row} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 
 
 class ContainerSearch extends Component {

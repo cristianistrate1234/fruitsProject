@@ -1,4 +1,4 @@
-import cardFoodClasse from "./cardFoodClasse.css"
+import cardFoodContainer from "./cardFoodContainer.css"
 import React from 'react';
 import ButtonBarSearch from "../button"
 import newInfoFood from "./contentFreeObject";

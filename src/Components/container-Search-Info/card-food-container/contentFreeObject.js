@@ -1,4 +1,4 @@
-import pngwingcom from "./img/pngwing.com.png"
+import vegetableImg from "./img/pngwing.com.png"
 
 const newInfoFood = [
   {
@@ -6,7 +6,7 @@ const newInfoFood = [
     subTitle:"Vegetable 100% Orange",
     footerTitle:"Free Pickup ond Delivery Available",
     buttonTitle:"SHOP NEW",
-    imgTitle:pngwingcom,
+    imgTitle:vegetableImg,
   }
 ]
 
