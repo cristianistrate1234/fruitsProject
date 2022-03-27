@@ -1,9 +1,13 @@
-.title{
+.title {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    padding-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 34px;
 }
-.rectangle{
+
+.rectangle {
     width: 80px;
     height: 4px;
     background: #7FAD39;
@@ -11,64 +15,69 @@
     margin-top: 35px;
 }
 
-.img{
+.img {
     width: 367px;
     height: 259px;
 }
-.icon-item{
-    display:flex;
+
+.icon-item {
+    display: flex;
     justify-content: space-around;
     width: 300px;
     margin-top: 21px;
 }
-.container-card-item{
+
+.container-card-item {
     height: 540px;
     width: 900px;
     align-items: center;
     justify-content: space-around;
     display: flex;
-    margin-top:50px;
+    margin-top: 50px;
     border: none;
     margin-left: 300px;
 }
 
 @media (max-width: 1000px) {
-    .container-card-item{
+    .container-card-item {
         height: 540px;
         width: 100%;
         align-items: center;
         justify-content: center;
         display: flex;
-        margin-top:50px;
+        margin-top: 50px;
         border: none;
         flex-direction: column;
         padding-top: 80%;
     }
-    .card-box{
+
+    .card-box {
         margin-top: 100px;
     }
 }
-.card-box{
+
+.card-box {
     margin-left: 20px;
 }
 
 
-.icon-comment{
-    width:20px;
+.icon-comment {
+    width: 20px;
     height: 20px;
     margin-left: 50px;
 }
-.icon-calendar{
-width: 20px;
+
+.icon-calendar {
+    width: 20px;
     height: 22px;
 }
 
-.card-SubTitle{
+.card-SubTitle {
     width: 367px;
     height: 44px;
     left: 0;
-    top: 323px;
-    font-family: 'Cerebri Sans Pro';
+    padding-top: 21px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
@@ -80,14 +89,11 @@ width: 20px;
     margin-top: 21px;
 }
 
-.card-Text-Content{
+.card-Text-Content {
     width: 367px;
     height: 86px;
-    left: 0;
-    top: 397px;
-    font-family: 'Cerebri Sans Pro';
-    font-style: normal;
-    font-weight: 400;
+    padding-top: 30px;
+    font-family: "Gill Sans", sans-serif;;
     font-size: 16px;
     line-height: 24px;
     display: flex;
@@ -97,7 +103,7 @@ width: 20px;
     margin-top: 30px;
 }
 
-.info-how-many{
+.info-how-many {
     width: 150px;
     height: 20px;
     top: 285px;
@@ -110,4 +116,14 @@ width: 20px;
     align-items: center;
     color: #757575;
     margin-left: 10px;
+}
+
+.rend-more {
+    display: flex;
+    margin-left: 260px;
+    font-weight: 900;
+    font-family: "Gill Sans", sans-serif;;
+    color: #6e6d6d;
+
+    text-decoration: none;
 }

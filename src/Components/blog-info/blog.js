@@ -29,7 +29,7 @@ function CardBlog() {
                                     </div>
                                 </div>
                                 <h3 className={"card-SubTitle"}>{content.titleCard}</h3>
-                                <Card.Text className={"card-Text-Content"}>{content.textCard}</Card.Text>
+                              <p className={"card-Text-Content"}>{content.textCard}</p><a className={"rend-more"}>{content.more}</a>
                             </div>
                     )
                     })}
