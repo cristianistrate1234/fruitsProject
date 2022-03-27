@@ -16,7 +16,7 @@ function CardBlog() {
             <div className={"container-card-item"}>
                     {ContentCardObject.map((content, item) => {
                         return (
-                            <div className={"card-box"}>
+                            <div key={item} className={"card-box"}>
                                 <div className={"container-card-img"}>
                                     <img className={"img"} src={content.img}/>
                                 </div>

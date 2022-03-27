@@ -1,7 +1,7 @@
 import phoneColl from "./phoneColl.css"
 import React, {Component} from 'react';
 import phone from "./img/phone_icon.png"
-import {Container, Row} from "react-bootstrap";
+
 
 
 class PhoneColl extends Component {
