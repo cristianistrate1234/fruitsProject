@@ -22,12 +22,13 @@
 }
 .container-card-item{
     height: 540px;
-    width: 100%;
+    width: 900px;
     align-items: center;
     justify-content: space-around;
     display: flex;
     margin-top:50px;
     border: none;
+    margin-left: 290px;
 }
 
 @media (max-width: 1000px) {
@@ -45,6 +46,9 @@
     .card-box{
         margin-top: 100px;
     }
+}
+.card-box{
+    margin-left: 20px;
 }
 
 
