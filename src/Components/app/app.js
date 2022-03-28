@@ -18,10 +18,6 @@ class App extends Component {
                 <ThumbContainer />
                 <SliderProductBlock />
                 <CardBlog />
-                <ContainerSearch/>
-                <ThumbContainer/>
-              <SliderProductBlock />
-                <CardBlog/>
             </div>
         );
     }
