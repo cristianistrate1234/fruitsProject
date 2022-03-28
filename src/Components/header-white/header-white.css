@@ -1,0 +1,63 @@
+.navbar-two {
+    background-color: white;
+    font-family: Cerebri Sans Pro, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo-left {
+    padding-left: 39px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text span {
+    text-transform: uppercase;
+    font-size: large;
+    padding: 0 35px;
+}
+
+.text span a {
+    text-decoration: none;
+    color: #2A2A2A;
+}
+
+.text span a:hover{
+    color: #7FAD39;
+    cursor: pointer;
+}
+
+.container-white {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right {
+    padding-right: 39px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.badge-like, .badge-bag {
+    position: relative;
+    padding: 0 10px;
+}
+
+.badge-text {
+    position: absolute;
+    top: -6px;
+    right: 0;
+    background-color: #7FAD39;
+    font-size: 10px;
+    border-radius: 100%;
+    color: white;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+}
