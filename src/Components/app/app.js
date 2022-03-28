@@ -8,6 +8,10 @@ class App extends Component {
     render() {
         return (
             <div>
+                <ContainerSearch />
+                <ThumbContainer />
+                <SliderProductBlock />
+                <CardBlog />
                 <ContainerSearch/>
                 <ThumbContainer/>
               <SliderProductBlock />
