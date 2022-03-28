@@ -10,7 +10,7 @@
     height: 441px;
     box-shadow: 0 0 2px 0 #cdcdcd;
     border: 1px solid #cdcdcd;
-    margin-left: 360px;
+    margin-left: 4px;
     transition: 1s;
 
 }
@@ -19,27 +19,11 @@
     display: flex;
     border: 1px solid #cdcdcd;
     background-color: #F5F5F5;
-    width: 900px;
+    width: 820px;
     height: 441px;
     margin-left: 30px;
 }
 
-@media (max-width: 1380px) {
-    .container-Food-info {
-        width: 370px;
-        height: 441px;
-        box-shadow: 0 0 2px 0 #cdcdcd;
-        border: 1px solid #cdcdcd;
-        background-color: #dfeacf;
-
-    }
-
-    .container-food-text {
-        width: 270px;
-        margin-left: 1px;
-    }
-
-}
 
 .menuActive {
     display: none;
@@ -50,9 +34,9 @@
     display: flex;
     border: 1px solid #cdcdcd;
     background-color: #F5F5F5;
-    width: 1200px;
+    width: 1140px;
     height: 441px;
-    margin-left: 360px;
+    margin-left: 2px;
 }
 
 

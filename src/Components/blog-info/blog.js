@@ -13,26 +13,31 @@ function CardBlog() {
                     <rect/>
                 </svg>
             </div>
+  <div className={"container-box-card-item"}>
             <div className={"container-card-item"}>
                     {ContentCardObject.map((content, item) => {
                         return (
+
                             <div key={item} className={"card-box"}>
-                                <div className={"container-card-img"}>
-                                    <img className={"img"} src={content.img}/>
+                              <div className={"container-card-img"}>
+                                <img className={"img"} src={content.img}/>
+                              </div>
+                              <div className={"card-icon-Container"}>
+                                <div className={"icon-item"}>
+                                  <img className={"icon-calendar"} src={content.iconCalendar}/>
+                                  <span className={"info-how-many"}>{content.calendarText}</span>
+                                  <img className={"icon-comment"} src={content.iconComment}/>
+                                  <span className={"info-how-many"}>{content.commentText}</span>
                                 </div>
-                                <div className={"card-icon-Container"}>
-                                    <div className={"icon-item"}>
-                                        <img className={"icon-calendar"} src={content.iconCalendar}/>
-                                        <span className={"info-how-many"}>{content.calendarText}</span>
-                                        <img className={"icon-comment"} src={content.iconComment}/>
-                                        <span className={"info-how-many"}>{content.commentText}</span>
-                                    </div>
-                                </div>
-                                <h3 className={"card-SubTitle"}>{content.titleCard}</h3>
+                              </div>
+                              <h3 className={"card-SubTitle"}>{content.titleCard}</h3>
                               <p className={"card-Text-Content"}>{content.textCard}</p><a className={"rend-more"}>{content.more}</a>
                             </div>
+
+
                     )
                     })}
+            </div>
             </div>
         </div>
 

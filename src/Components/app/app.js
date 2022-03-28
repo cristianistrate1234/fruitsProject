@@ -10,7 +10,7 @@ class App extends Component {
             <div>
                 <ContainerSearch/>
                 <ThumbContainer/>
-          <SliderProductBlock /
+              <SliderProductBlock />
                 <CardBlog/>
             </div>
         );

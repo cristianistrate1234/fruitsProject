@@ -31,12 +31,19 @@
     height: 540px;
     width: 900px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     margin-top: 50px;
     border: none;
-    margin-left: 300px;
+
 }
+
+.container-box-card-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media (max-width: 1000px) {
     .container-card-item {

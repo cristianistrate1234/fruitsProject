@@ -11,9 +11,9 @@ class ContainerSearch extends Component {
     render() {
         return (
             <Container fluid={"fluid x "}>
-                <NavbarMenu/>
-                <BarSearch />
-                <CardFoodContainer />
+                  <NavbarMenu/>
+                  <BarSearch />
+                  <CardFoodContainer />
             </Container>
         );
     }
