@@ -1,0 +1,110 @@
+
+.box-Container-food {
+    display: flex;
+
+}
+
+
+.container-Food-info {
+    width: 290px;
+    height: 441px;
+    box-shadow: 0 0 2px 0 #cdcdcd;
+    border: 1px solid #cdcdcd;
+    margin-left: 360px;
+    transition: 1s;
+
+}
+
+.container-Food-Free-info {
+    display: flex;
+    border: 1px solid #cdcdcd;
+    background-color: #F5F5F5;
+    width: 900px;
+    height: 441px;
+    margin-left: 30px;
+}
+
+@media (max-width: 1380px) {
+    .container-Food-info {
+        width: 370px;
+        height: 441px;
+        box-shadow: 0 0 2px 0 #cdcdcd;
+        border: 1px solid #cdcdcd;
+        background-color: #dfeacf;
+
+    }
+
+    .container-food-text {
+        width: 270px;
+        margin-left: 1px;
+    }
+
+}
+
+.menuActive {
+    display: none;
+
+}
+
+.container-Food-Free-info-Active {
+    display: flex;
+    border: 1px solid #cdcdcd;
+    background-color: #F5F5F5;
+    width: 1200px;
+    height: 441px;
+    margin-left: 360px;
+}
+
+
+.container-food-text {
+    margin-top: 30px;
+}
+
+.food-text {
+    display: flex;
+    margin-top: 9px;
+    text-decoration: none;
+    font-family: 'Cerebri Sans', sans-serif;;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 30px;
+    color: #999999;
+}
+
+.img-food-Free {
+    margin-top: 50px;
+    /*margin-left: -180px;*/
+    width: 536px;
+    height: 350px;
+}
+
+.container-Food-Free-oferte {
+    margin-top: 86px;
+    margin-left: 77px;
+}
+
+.fruit-text {
+    color: #7FAD39;
+}
+
+.vegetable-text {
+    font-size: 38px;
+    line-height: 50px;
+    font-style: inherit;
+    font-family: "Bookman Old Style";
+}
+
+.footerTitle {
+    color: #999999;
+}
+
+.button-Search-SHOP-NOW {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #7FAD39;
+    color: white;
+}
