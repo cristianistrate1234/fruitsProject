@@ -10,10 +10,10 @@ import {Container} from "react-bootstrap";
 class ContainerSearch extends Component {
     render() {
         return (
-            <Container fluid={"fluid x "}>
-                <NavbarMenu/>
-                <BarSearch />
-                <CardFoodContainer />
+            <Container fluid={"fluid container-modul-card-bar "}>
+                  <NavbarMenu/>
+                  <BarSearch />
+                  <CardFoodContainer />
             </Container>
         );
     }
