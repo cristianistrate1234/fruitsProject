@@ -7,18 +7,23 @@ import ContentCardObject from "./contentCardObject";
 function CardBlog() {
     return (
         <div>
-            <h2 className={"title"}>From The Blog</h2>
-            <div>
-                <svg className={"rectangle"}>
-                    <rect/>
-                </svg>
-            </div>
+          <div className={"title"}>
+            <h2 className={"title-text-teme"} >From The Blog</h2>
+            <svg className={"rectangle"}>
+              <rect/>
+            </svg>
+          </div>
+          {/*  <h2 className={"title"}>From The Blog</h2>*/}
+          {/*<svg className={"rectangle"}>*/}
+          {/*  <rect/>*/}
+          {/*</svg>*/}
+
   <div className={"container-box-card-item"}>
-            <div className={"container-card-item"}>
+            <div className={"card-ContentCardObject"}>
                     {ContentCardObject.map((content, item) => {
                         return (
 
-                            <div key={item} className={"card-box"}>
+                            <div key={item} className={"card-box-object-create"}>
                               <div className={"container-card-img"}>
                                 <img className={"img"} src={content.img}/>
                               </div>
