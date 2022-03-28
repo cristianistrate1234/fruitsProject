@@ -23,39 +23,43 @@
 }
 
 /*Hamburger menu*/
-.icon-item-hamburger{
+.icon-item-hamburger {
     margin-top: 15px;
     margin-left: -5px;
 }
 
-.item-hamburger{
+.item-hamburger {
     cursor: pointer;
     width: 18px;
     height: 3px;
     background-color: #ffffff;
     padding-top: 3px;
-    margin-top:3px;
+    margin-top: 3px;
+    transition: 1s;
 }
-.item-hamburger-Active{
-   transform: scale(1.2);
+
+.item-hamburger-Active .item-hamburger {
+    background-color: #2A2A2A;
+    transform: scale(1.2);
     transition: 1s;
 }
 
 
 /*-----------------------*/
-.container-direction{
+.container-direction {
     margin-top: 10px;
     margin-left: -30px;
 }
 
-.item-direction{
+.item-direction {
     width: 20px;
     height: 20px;
     transform: rotate(0deg);
     transition: 1s;
 
 }
-.item-direction-Active{
+
+.item-direction-Active {
     width: 20px;
     height: 20px;
     transform: rotate(180deg);
