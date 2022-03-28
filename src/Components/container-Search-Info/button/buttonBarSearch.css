@@ -1,0 +1,23 @@
+
+.button-Search {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 50px;
+    background-color: #7FAD39;
+    color: white;
+}
+
+.content-button-Search {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+
+}
+
+
