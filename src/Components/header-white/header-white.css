@@ -1,3 +1,8 @@
+.header-container {
+    width: 1140px;
+    margin: auto;
+}
+
 .navbar-two {
     background-color: white;
     font-family: Cerebri Sans Pro, sans-serif;

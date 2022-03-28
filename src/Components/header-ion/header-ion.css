@@ -1,7 +1,12 @@
 .navbar {
     background-color: black;
+}
+
+.menu-container {
     display: flex;
     justify-content: space-between;
+    width: 1140px;
+    margin: auto;
 }
 
 .container-left{

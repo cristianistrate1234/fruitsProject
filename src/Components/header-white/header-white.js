@@ -10,6 +10,7 @@ class HeaderWhite extends Component {
         return (
             <div>
                 <nav className={'navbar-two'}>
+                    <div className={'header-container'}>
                     <div className={'container-white'}>
                         <div className={'logo-left'}>
                             <img src={help}/>
@@ -32,6 +33,7 @@ class HeaderWhite extends Component {
                             </div>
                             <img src={item}/>
                         </div>
+                    </div>
                     </div>
                 </nav>
             </div>
