@@ -8,7 +8,7 @@ const ProductList = ({ img, name, price }) => {
         alt={name}
       />
       <div className="d-flex align-content-center flex-column">
-        <h3>Cauliflower</h3>
+        <h3>{name}</h3>
         <p>{price + "$"}</p>
       </div>
     </li>

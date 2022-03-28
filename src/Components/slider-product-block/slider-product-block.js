@@ -16,13 +16,13 @@ export default class SliderProductBlock extends Component {
           product_img: "/img/cauliflower.jpg",
         },
         {
-          product_name: "Organic quince",
+          product_name: "Organic Quince",
           product_category: "latest",
           price: 30,
           product_img: "/img/quince.jpg",
         },
         {
-          product_name: "Tomato hybrid",
+          product_name: "Tomato Hybrid",
           product_category: "latest",
           price: 30,
           product_img: "/img/tomato.jpg",
@@ -34,7 +34,7 @@ export default class SliderProductBlock extends Component {
           product_img: "/img/blueberry.jpg",
         },
         {
-          product_name: "Capsicum-green",
+          product_name: "Capsicum-Green",
           product_category: "top",
           price: 30,
           product_img: "/img/capsicum-green.jpg",
@@ -58,7 +58,7 @@ export default class SliderProductBlock extends Component {
           product_img: "/img/apple.jpg",
         },
         {
-          product_name: "Fresh raspberry",
+          product_name: "Fresh Raspberry",
           product_category: "review",
           price: 30,
           product_img: "/img/raspberry.jpg",
@@ -70,13 +70,13 @@ export default class SliderProductBlock extends Component {
           product_img: "/img/cauliflower.jpg",
         },
         {
-          product_name: "Organic quince",
+          product_name: "Organic Huince",
           product_category: "latest",
           price: 30,
           product_img: "/img/quince.jpg",
         },
         {
-          product_name: "Tomato hybrid",
+          product_name: "Tomato Hybrid",
           product_category: "latest",
           price: 30,
           product_img: "/img/tomato.jpg",
@@ -88,7 +88,7 @@ export default class SliderProductBlock extends Component {
           product_img: "/img/blueberry.jpg",
         },
         {
-          product_name: "Capsicum-green",
+          product_name: "Capsicum-Green",
           product_category: "top",
           price: 30,
           product_img: "/img/capsicum-green.jpg",
@@ -112,7 +112,7 @@ export default class SliderProductBlock extends Component {
           product_img: "/img/apple.jpg",
         },
         {
-          product_name: "Fresh raspberry",
+          product_name: "Fresh Raspberry",
           product_category: "review",
           price: 30,
           product_img: "/img/raspberry.jpg",
@@ -124,13 +124,13 @@ export default class SliderProductBlock extends Component {
           product_img: "/img/cauliflower.jpg",
         },
         {
-          product_name: "Organic quince",
+          product_name: "Organic Quince",
           product_category: "latest",
           price: 30,
           product_img: "/img/quince.jpg",
         },
         {
-          product_name: "Tomato hybrid",
+          product_name: "Tomato Hybrid",
           product_category: "latest",
           price: 30,
           product_img: "/img/tomato.jpg",
@@ -142,7 +142,7 @@ export default class SliderProductBlock extends Component {
           product_img: "/img/blueberry.jpg",
         },
         {
-          product_name: "Capsicum-green",
+          product_name: "Capsicum-Green",
           product_category: "top",
           price: 30,
           product_img: "/img/capsicum-green.jpg",
@@ -166,7 +166,7 @@ export default class SliderProductBlock extends Component {
           product_img: "/img/apple.jpg",
         },
         {
-          product_name: "Fresh raspberry",
+          product_name: "Fresh Raspberry",
           product_category: "review",
           price: 30,
           product_img: "/img/raspberry.jpg",
@@ -197,13 +197,13 @@ export default class SliderProductBlock extends Component {
               <Carousel.Item>
                 <ul>
                   {latestProduct.map(
-                    (item, index) =>
+                    (element, index) =>
                       index < maxItem && (
                         <ProductList
                           key={index}
-                          name={item.product_name}
-                          img={item.product_img}
-                          price={item.price}
+                          name={element.product_name}
+                          img={element.product_img}
+                          price={element.price}
                         />
                       )
                   )}
@@ -212,13 +212,13 @@ export default class SliderProductBlock extends Component {
               <Carousel.Item>
                 <ul>
                   {latestProduct.map(
-                    (item, index) =>
+                    (element, index) =>
                       index < maxItem && (
                         <ProductList
                           key={index}
-                          name={item.name}
-                          img={item.product_img}
-                          price={item.price}
+                          name={element.product_name}
+                          img={element.product_img}
+                          price={element.price}
                         />
                       )
                   )}
@@ -232,13 +232,13 @@ export default class SliderProductBlock extends Component {
               <Carousel.Item>
                 <ul>
                   {topProduct.map(
-                    (item, index) =>
+                    (element, index) =>
                       index < maxItem && (
                         <ProductList
                           key={index}
-                          name={item.name}
-                          img={item.product_img}
-                          price={item.price}
+                          name={element.product_name}
+                          img={element.product_img}
+                          price={element.price}
                         />
                       )
                   )}
@@ -247,13 +247,13 @@ export default class SliderProductBlock extends Component {
               <Carousel.Item>
                 <ul>
                   {topProduct.map(
-                    (item, index) =>
+                    (element, index) =>
                       index < maxItem && (
                         <ProductList
                           key={index}
-                          name={item.name}
-                          img={item.product_img}
-                          price={item.price}
+                          name={element.product_name}
+                          img={element.product_img}
+                          price={element.price}
                         />
                       )
                   )}
@@ -267,13 +267,13 @@ export default class SliderProductBlock extends Component {
               <Carousel.Item>
                 <ul>
                   {reviewProduct.map(
-                    (item, index) =>
+                    (element, index) =>
                       index < maxItem && (
                         <ProductList
                           key={index}
-                          name={item.name}
-                          img={item.product_img}
-                          price={item.price}
+                          name={element.product_name}
+                          img={element.product_img}
+                          price={element.price}
                         />
                       )
                   )}
@@ -282,13 +282,13 @@ export default class SliderProductBlock extends Component {
               <Carousel.Item>
                 <ul>
                   {reviewProduct.map(
-                    (item, index) =>
+                    (element, index) =>
                       index < maxItem && (
                         <ProductList
                           key={index}
-                          name={item.name}
-                          img={item.product_img}
-                          price={item.price}
+                          name={element.product_name}
+                          img={element.product_img}
+                          price={element.price}
                         />
                       )
                   )}
