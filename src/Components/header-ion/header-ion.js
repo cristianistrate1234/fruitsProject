@@ -14,6 +14,7 @@ class HeaderIon extends Component {
         return (
             <div>
                 <div className={'navbar'}>
+                    <div className={'menu-container'}>
                     <div className={'container-left'}>
                         <div className={'email-png'}>
                            <img src={email}/>
@@ -35,6 +36,7 @@ class HeaderIon extends Component {
                         <span className={'bar'}>|</span>
                         <img src={login}/>
                         <span className={'login'}>Login</span>
+                    </div>
                     </div>
                 </div>
             </div>
