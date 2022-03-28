@@ -1,0 +1,105 @@
+.footer-bg {
+    background-color: black;
+    color: white;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: start;
+    padding-top: 60px;
+
+}
+
+.first-column, .second-column {
+    width: 33%;
+}
+
+.third-column {
+    width: auto;
+}
+
+.footer-top ul li {
+    list-style: none;
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+.footer-top ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ul-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-column h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.second-column{
+    padding-right: 10%;
+}
+
+.footer-bottom {
+    padding-top: 114px;
+    display: flex;
+    justify-content: start;
+    padding-bottom: 100px;
+}
+
+.footer-bottom span {
+    width: 66%;
+    font-size: 14px;
+    display: block;
+}
+
+.bank-cards img {
+    width: 43px;
+}
+
+.input-btn {
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+
+}
+
+.input-btn input{
+    padding: 25px 30px;
+    outline: none;
+    width: 100%;
+}
+
+.input-btn button{
+    background-color: #7FAD39;
+    padding: 26px 31px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.images-bottom {
+    display: flex;
+    justify-content: start;
+    padding-top: 30px;
+    padding-left: 0;
+}
+
+.images-bottom img{
+    padding: 0 12px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
