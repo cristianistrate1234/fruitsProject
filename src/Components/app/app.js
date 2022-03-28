@@ -18,6 +18,7 @@ class App extends Component {
                 <ThumbContainer />
                 <SliderProductBlock />
                 <CardBlog />
+                <FooterIon />
             </div>
         );
     }
