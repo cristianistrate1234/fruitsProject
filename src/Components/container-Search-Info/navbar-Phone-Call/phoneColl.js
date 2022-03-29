@@ -9,7 +9,7 @@ class PhoneColl extends Component {
         return (
             <div  className={"container-coll-content"}>
                   <div className={"icon-phone"}>
-                    <img alt={"phone-icon"} src={phone}/>
+                    <a href={"https://www.messenger.com/"}><img alt={"phone-icon"} src={phone}/></a>
                   </div>
                   <div className={"container-phone-number"}>
                     <h6 className={"phone-number-contact"} >+65 11.188.888</h6>
