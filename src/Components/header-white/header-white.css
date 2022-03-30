@@ -10,10 +10,6 @@
     padding-bottom: 20px;
 }
 
-.logo-left {
-    padding-left: 39px;
-}
-
 .text {
     display: flex;
     justify-content: space-between;
@@ -43,7 +39,6 @@
 }
 
 .right {
-    padding-right: 39px;
     display: flex;
     justify-content: end;
     align-items: center;
