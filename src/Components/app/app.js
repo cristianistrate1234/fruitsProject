@@ -6,6 +6,7 @@ import SliderProductBlock from "../slider-product-block";
 import ThumbContainer from "../thumb-container/thumb-container";
 import CardBlog from "../blog-info";
 import ContainerSearch from "../container-Search-Info/container-NavBarMenu-Search";
+import FeatureProductsContainer from "../container-product-categories";
 
 class App extends Component {
     render() {
@@ -16,11 +17,8 @@ class App extends Component {
                 <ContainerSearch />
                 <ThumbContainer />
                 <SliderProductBlock />
+              <FeatureProductsContainer />
                 <CardBlog />
-                <ContainerSearch/>
-                <ThumbContainer/>
-              <SliderProductBlock />
-                <CardBlog/>
                 <FooterIon />
             </div>
         );
